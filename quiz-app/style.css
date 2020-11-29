@@ -55,11 +55,16 @@ button {
   cursor: pointer;
   display: block;
   font-family: inherit;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   width: 100%;
   padding: 1.3rem;
 }
 
 button:hover {
   background-color: #732d91;
+}
+
+button:focus {
+  background-color: #5e3370;
+  outline: none;
 }
